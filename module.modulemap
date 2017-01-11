@@ -1,0 +1,11 @@
+module RopeMacOS [system] {
+    header "/usr/local/include/libpq-fe.h"
+    link "pq"
+    export *
+}
+
+module RopeLinux [system] {
+    header "/usr/include/postgresql/libpq-fe.h"
+    link "pq"
+    export *
+}
