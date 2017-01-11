@@ -1,4 +1,4 @@
-# Rope RopeLibpq
+# RopeLibpq
 
 RopeLibpq is a `C` module map for `PostgreSQL`.
 
