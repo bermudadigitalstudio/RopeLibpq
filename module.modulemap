@@ -1,11 +1,5 @@
-module RopeMacOS [system] {
-    header "/usr/local/include/libpq-fe.h"
-    link "pq"
-    export *
-}
-
-module RopeLinux [system] {
-    header "/usr/include/postgresql/libpq-fe.h"
+module RopeLibpq [system] {
+    header "shim.h"
     link "pq"
     export *
 }
